@@ -1,0 +1,63 @@
+.gameArea {
+	margin:0 auto;
+	margin-bottom:40px;
+	background:#ffdfe5;
+	padding:35px;
+}
+
+.title {
+	text-align:center;
+	margin:auto;
+	margin-bottom:50px;
+	padding:25px;
+	background:#ffdfe5;
+}
+
+body {
+	margin-top:40px;
+	background:url("../images/weather.png");
+}
+
+button {
+	display:block;
+	margin:auto;
+	background:#bcf2ff;
+	color:navy;
+	border:none;
+	padding:15px;
+	font-size:36px;
+}
+
+#remove-button {
+	position:relative;
+	top:80%;
+}
+
+div.answers {
+	width:80%;
+}
+
+div.answers:hover {
+	background:#bcf2ff;
+}
+
+@media (min-width:768px) {
+	.gameArea{
+		width:885px;
+		height:547.2px;
+	}
+}
+
+@media (max-width:768px) {
+	.gameArea{
+		width:738px;
+		height:456px;
+	}
+}
+
+@media (max-width:640px) {
+	.gameArea{
+		width:615px;
+		height:380px;
+	}
+}
