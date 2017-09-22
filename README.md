@@ -1,6 +1,6 @@
 # TriviaGame
 
-One Paragraph of project description goes here
+Using basic HTML, CSS, and Javascript (plus Jquery), this project compiles much of the information we learned so far.
 
 # Getting Started
 
